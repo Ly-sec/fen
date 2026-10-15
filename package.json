@@ -1,0 +1,13 @@
+{
+  "name": "fen-colors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test scripts/palette.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

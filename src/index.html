@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B1824">
+  <meta name="description" content="Fen is a color scheme with moss greens, muted blues and warm off-white text. Dark and light variants for editors, terminals and interfaces, with Base16, Base24, CSS, Kitty and Noctalia exports.">
+  <title>Fen | Color scheme</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#" aria-label="Fen home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 39V17m12 22V7m12 32V21M12 28l-7-8m19 1l7-9m5 19l7-8M5 39h38"/></svg>fen<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#palette">Palette</a><a href="#preview">Preview</a><a href="#get-fen">Get Fen <span aria-hidden="true">↗</span></a></nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to Dawn light theme"><span class="theme-symbol" aria-hidden="true">☾</span><span id="theme-label">Dusk</span><span class="toggle-track" aria-hidden="true"><span></span></span></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-dot"></span> A WETLAND-INSPIRED COLOR SCHEME</p>
+        <h1 id="hero-title">Moss green.<br><em>Deep blue.</em></h1>
+        <p class="hero-description">A general purpose color scheme, in dark and light.<br>Muted greens, earthy accents and warm off-white text.</p>
+        <div class="hero-actions"><a class="button primary" href="#get-fen">Download Fen <span aria-hidden="true">↗</span></a><a class="text-link" href="#palette">View the colors <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-footnote"><span>Dark and light variants</span><span class="mini-colors" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Dusk & Dawn</span></div>
+      </div>
+      <div class="landscape" role="img" aria-label="An abstract wetland landscape with flowing contour lines, a low sun, and reeds">
+        <svg class="contours" viewBox="0 0 600 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs><pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="currentColor" opacity=".14"/></pattern><clipPath id="art-clip"><rect width="600" height="640" rx="180"/></clipPath></defs>
+          <g clip-path="url(#art-clip)"><rect class="art-base" width="600" height="640"/><circle class="sun" cx="390" cy="180" r="77"/>
+          <path class="art-hill-back" d="M-50 360C130 130 285 425 440 318S680 230 700 330V700H-50Z"/>
+          <path class="art-hill-front" d="M-50 455C90 400 205 500 322 397S520 350 650 468V700H-50Z"/>
+          <g class="contour-lines" fill="none" stroke-width="1">
+            <path d="M-70 381C118 152 264 450 441 341S664 261 700 360"/><path d="M-70 400C118 171 264 469 441 360S664 280 700 379"/><path d="M-70 419C118 190 264 488 441 379S664 299 700 398"/><path d="M-70 438C118 209 264 507 441 398S664 318 700 417"/><path d="M-70 457C118 228 264 526 441 417S664 337 700 436"/><path d="M-70 476C118 247 264 545 441 436S664 356 700 455"/><path d="M-70 495C118 266 264 564 441 455S664 375 700 474"/><path d="M-70 514C118 285 264 583 441 474S664 394 700 493"/><path d="M-70 533C118 304 264 602 441 493S664 413 700 512"/><path d="M-70 552C118 323 264 621 441 512S664 432 700 531"/><path d="M-70 571C118 342 264 640 441 531S664 451 700 550"/><path d="M-70 590C118 361 264 659 441 550S664 470 700 569"/><path d="M-70 609C118 380 264 678 441 569S664 489 700 588"/><path d="M-70 628C118 399 264 697 441 588S664 508 700 607"/><path d="M-70 647C118 418 264 716 441 607S664 527 700 626"/>
+          </g><rect width="600" height="640" fill="url(#grain)"/>
+          <g class="reeds" fill="none" stroke-width="2" stroke-linecap="round"><path d="M111 640C121 562 112 480 83 422M151 640C140 540 146 442 169 365M179 640C189 559 205 524 241 480M92 640C89 594 69 553 42 539M220 640C229 583 256 552 290 531"/><path d="M151 460l-27-41m31-11l28-39m-64 138l-24-28m102 90l28-19"/></g>
+          </g>
+        </svg>
+        <div class="art-caption"><span>FEN / 001</span><span>Dusk<br>& Dawn</span></div>
+        <span class="art-word" aria-hidden="true">fen.</span>
+        <span class="art-annotation">MOSS / WATER / CLAY</span>
+      </div>
+    </section>
+    <div class="intro-rule wrap"><span>For editors, terminals and interfaces.</span><span>Noctalia <i>·</i> Base16 <i>·</i> Base24 <i>·</i> CSS <i>·</i> Kitty</span></div>
+    <section id="preview" class="playground wrap" aria-labelledby="preview-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / PREVIEW</p><h2 id="preview-title">See it <em>in use.</em></h2></div><p>Try Dusk and Dawn with code,<br>terminal colors or a few UI controls.</p></div>
+      <div class="preview-toolbar"><div class="segmented" role="group" aria-label="Preview mode"><button type="button" data-mode="code" aria-pressed="true">Code</button><button type="button" data-mode="terminal" aria-pressed="false">Terminal</button><button type="button" data-mode="interface" aria-pressed="false">Interface</button></div><span class="preview-variant"><span class="tiny-dot"></span> Fen <span data-variant-name>Dusk</span></span></div>
+      <div class="preview-window">
+        <div class="window-top"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span id="window-title">palette.ts</span><span class="window-detail">FEN / <span data-variant-name>Dusk</span></span></div>
+        <div id="code-preview" class="preview-panel"><aside class="editor-sidebar"><span class="sidebar-heading">EXPLORER</span><p>⌄ &nbsp; fen</p><span class="file-active">TS &nbsp; palette.ts</span><span>◇ &nbsp; palette.json</span><span>≡ &nbsp; README.md</span><div class="sidebar-bottom">Fen<br>Dusk & Dawn.</div></aside><div class="editor-code"><div class="code-tab"><span>TS</span> palette.ts <span>×</span></div><pre aria-label="TypeScript syntax highlighting example"><code><span class="line"><span class="comment">// A few colors from the Fen palette.</span></span><span class="line"><span class="keyword">type</span> <span class="type">Variant</span> = <span class="string">'dusk'</span> | <span class="string">'dawn'</span>;</span><span class="line"> </span><span class="line"><span class="keyword">const</span> colors = {</span><span class="line">  moss: <span class="string">'#A8C86B'</span>,</span><span class="line">  water: <span class="string">'#0B1824'</span>,</span><span class="line">  mist: <span class="string">'#E8E6C8'</span>,</span><span class="line">  amber: <span class="string">'#D4B071'</span></span><span class="line">};</span><span class="line"> </span><span class="line"><span class="keyword">function</span> <span class="function">getTheme</span>(variant: <span class="type">Variant</span>) {</span><span class="line">  <span class="keyword">return</span> { ...colors, variant };</span><span class="line">}</span><span class="line"> </span><span class="line"><span class="function">getTheme</span>(<span class="string" data-code-variant>'dusk'</span>);<span class="cursor" aria-hidden="true">▏</span></span></code></pre></div></div>
+        <div id="terminal-preview" class="preview-panel" hidden><div class="terminal-content" aria-label="Example shell session showing Git status and a website build">
+          <p class="terminal-prompt"><span class="terminal-path">~/projects/fen</span> <span class="terminal-branch">main</span></p>
+          <p class="terminal-command"><span class="terminal-green">❯</span> git status <span class="terminal-yellow">--short</span></p>
+          <pre class="terminal-output"><span class="terminal-red"> M</span> src/app.js
+<span class="terminal-red"> M</span> src/styles.css</pre>
+          <p class="terminal-prompt"><span class="terminal-path">~/projects/fen</span> <span class="terminal-branch">main</span></p>
+          <p class="terminal-command"><span class="terminal-green">❯</span> npm run build</p>
+          <pre class="terminal-output"><span class="terminal-muted">&gt; fen-colors@0.1.0 build
+&gt; node scripts/build.mjs</span>
+
+<span class="terminal-green">Built Fen: dist/ (2 variants, 8 color exports)</span></pre>
+          <p class="terminal-prompt"><span class="terminal-path">~/projects/fen</span> <span class="terminal-branch">main</span></p>
+          <p class="terminal-command"><span class="terminal-green">❯</span> <span class="cursor" aria-hidden="true">▏</span></p>
+        </div></div>
+        <div id="interface-preview" class="preview-panel" hidden><div class="interface-demo"><div class="demo-heading"><span class="eyebrow">NOTES</span><span class="demo-badge">Draft</span></div><h3>New note</h3><p>Try the text field and button in either theme.</p><div class="demo-controls"><label for="demo-note">Note</label><input id="demo-note" placeholder="Write a note..." maxlength="180"><button class="button primary" id="save-note" type="button">Save note <span aria-hidden="true">↗</span></button><p id="note-status" role="status">Demo only. Notes are cleared when you reload.</p></div></div></div>
+        <div class="window-status"><span>⑂ &nbsp; main &nbsp; <span class="string">✓</span></span><span>UTF-8 &nbsp; · &nbsp; <span id="status-language">TypeScript</span> &nbsp; · &nbsp; Fen</span></div>
+      </div>
+      <p class="preview-caption"><span>LIVE PREVIEW</span><span>Demo layouts · original UI colors, Base16 syntax colors</span></p>
+    </section>
+    <section id="palette" class="palette-section wrap" aria-labelledby="palette-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / PALETTE</p><h2 id="palette-title">The <em>colors.</em></h2></div><p>Browse the original palette or its Base16 and Base24 mappings.<br>Click a swatch to copy its hex value.</p></div>
+      <div class="color-ribbon" id="color-ribbon"></div>
+      <div class="palette-controls"><div class="segmented" role="group" aria-label="Palette format"><button type="button" data-palette="signature" aria-pressed="true">Signature</button><button type="button" data-palette="base16" aria-pressed="false">Base16</button><button type="button" data-palette="base24" aria-pressed="false">Base24</button><button type="button" data-palette="noctalia" aria-pressed="false">Noctalia</button></div><button class="text-link" type="button" id="copy-palette">Copy palette <span aria-hidden="true">↗</span></button></div>
+      <p class="palette-note" id="palette-note">The main accents, backgrounds and text colors.</p>
+      <div class="swatch-grid" id="swatch-grid"></div>
+    </section>
+    <section class="about-section wrap" aria-labelledby="about-title"><div><p class="eyebrow">03 / ABOUT</p><h2 id="about-title">Why <em>Fen?</em></h2></div><div class="about-copy"><p>A fen is a type of wetland. The name fits the moss greens, blue backgrounds and earthy reds in this scheme.</p><p>Dusk pairs a dark blue background with ivory text. Dawn uses a pale green background and darker accents.</p><p>Fen is a general purpose palette for editors, terminals and interfaces. Base16 and Base24 provide common role mappings; CSS, Kitty and Noctalia exports are also available.</p><a class="text-link" href="https://github.com/Ly-sec/fen#palette">Read the README <span aria-hidden="true">↗</span></a></div></section>
+    <section id="get-fen" class="get-section wrap" aria-labelledby="get-title"><div class="section-heading"><div><p class="eyebrow">04 / DOWNLOADS</p><h2 id="get-title">Get <em>Fen.</em></h2></div><p>Noctalia and CSS include both variants.<br>The other downloads follow your selected theme.</p></div>
+      <div class="download-list"><a class="download-row" href="./downloads/fen-noctalia.json" download><span class="download-number">01</span><span class="download-name">Noctalia <small>Original UI and terminal colors, with both variants.</small></span><span class="file-type">JSON</span><span class="download-arrow" aria-hidden="true">↓</span></a><a class="download-row" id="base16-download" href="./downloads/fen-dusk-base16.yaml" download><span class="download-number">02</span><span class="download-name">Base16 <small>16 color roles for compatible theme builders.</small></span><span class="file-type">YAML / <span data-variant-name>Dusk</span></span><span class="download-arrow" aria-hidden="true">↓</span></a><a class="download-row" id="base24-download" href="./downloads/fen-dusk-base24.yaml" download><span class="download-number">03</span><span class="download-name">Base24 <small>24 roles, including separate normal and bright accents.</small></span><span class="file-type">YAML / <span data-variant-name>Dusk</span></span><span class="download-arrow" aria-hidden="true">↓</span></a><a class="download-row" href="./downloads/fen.css" download><span class="download-number">04</span><span class="download-name">CSS variables <small>Named custom properties for dark and light themes.</small></span><span class="file-type">CSS</span><span class="download-arrow" aria-hidden="true">↓</span></a><a class="download-row" id="kitty-download" href="./downloads/fen-dusk-kitty.conf" download><span class="download-number">05</span><span class="download-name">Kitty <small>Original terminal colors in a Kitty configuration.</small></span><span class="file-type">CONF / <span data-variant-name>Dusk</span></span><span class="download-arrow" aria-hidden="true">↓</span></a></div>
+      <details class="install-notes"><summary>Installation notes <span aria-hidden="true">+</span></summary><div><p><strong>Noctalia v5:</strong> save the JSON as <code>~/.config/noctalia/palettes/Fen.json</code>. Set <code>source = "custom"</code> and <code>custom_palette = "Fen"</code> under <code>[theme]</code>. For v4, use <code>~/.config/noctalia/colorschemes/Fen/Fen.json</code> and select Fen in the color scheme settings. <a href="https://docs.noctalia.dev/noctalia/theming/palette/" target="_blank" rel="noreferrer">Noctalia documentation ↗</a></p><p><strong>Base16 / Base24:</strong> these are scheme files for a compatible Tinted Theming builder. Generate the configuration for your application using its template; the YAML itself is not an editor plugin. <a href="https://github.com/tinted-theming/home" target="_blank" rel="noreferrer">Tinted Theming documentation ↗</a></p><p><strong>CSS:</strong> load <code>fen.css</code>, add <code>data-fen="dark"</code> or <code>data-fen="light"</code> to your root element, then use <code>var(--fen-moss)</code>.</p><p><strong>Kitty:</strong> place the selected <code>.conf</code> next to your <code>kitty.conf</code> and add <code>include fen-dusk-kitty.conf</code> (or the Dawn file). Reload your configuration.</p></div></details>
+    </section>
+    <section class="closing wrap"><p>Fen <em>Dusk.</em><br>Fen <em>Dawn.</em></p><a class="back-top" href="#" aria-label="Back to top">↑</a></section>
+  </main>
+  <footer class="site-footer wrap"><a class="wordmark" href="#">fen<span class="wordmark-dot">.</span></a><p>A color scheme by lysec.<br>Dusk & Dawn.</p><span>DUSK & DAWN / WORK IN PROGRESS</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="copy-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close" type="submit">×</button><h3>Copy the colors</h3><p>Select the text below and copy it.</p><textarea id="copy-text" readonly aria-label="Palette text"></textarea><button class="button primary" type="submit">Done</button></form></dialog>
+  <noscript><p class="noscript wrap">Enable JavaScript to switch palettes and explore the previews. All downloads are available above; <a href="./downloads/fen-dawn-base16.yaml">Dawn Base16</a>, <a href="./downloads/fen-dawn-base24.yaml">Dawn Base24</a>, <a href="./downloads/fen-dawn-kitty.conf">Dawn Kitty</a>.</p></noscript>
+</body>
+</html>

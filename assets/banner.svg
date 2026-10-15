@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Fen: Dusk and Dawn</title>
+  <desc id="description">Fen's dark blue Dusk palette and pale green Dawn palette, with moss, fern, amber, clay and ivory swatches.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="360" rx="16"/></clipPath>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#ADB99B" opacity=".12"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#0B1824"/>
+    <rect x="700" width="500" height="360" fill="#EFF1DE"/>
+    <rect width="700" height="360" fill="url(#grain)"/>
+    <g fill="none" stroke="#3B5E59" stroke-width="1" opacity=".7">
+      <path d="M300 360C340 250 450 330 525 230S630 180 700 220"/>
+      <path d="M320 375C360 265 470 345 545 245S650 195 720 235"/>
+      <path d="M340 390C380 280 490 360 565 260S670 210 740 250"/>
+      <path d="M360 405C400 295 510 375 585 275S690 225 760 265"/>
+      <path d="M380 420C420 310 530 390 605 290S710 240 780 280"/>
+    </g>
+    <g fill="none" stroke="#526E2D" stroke-width="1" opacity=".13">
+      <path d="M900 360C920 250 1010 330 1085 230S1190 180 1260 220"/>
+      <path d="M920 375C940 265 1030 345 1105 245S1210 195 1280 235"/>
+      <path d="M940 390C960 280 1050 360 1125 260S1230 210 1300 250"/>
+      <path d="M960 405C980 295 1070 375 1145 275S1250 225 1320 265"/>
+    </g>
+    <g fill="none" stroke="#A8C86B" stroke-width="2.5" stroke-linecap="round">
+      <path d="M58 103V69m17 34V51m17 52V77M58 84l-10-12m27 1l10-14m7 34l10-12M47 103h56"/>
+    </g>
+    <text x="47" y="221" fill="#E8E6C8" font-family="Georgia, 'Times New Roman', serif" font-size="132" letter-spacing="-7">fen<tspan fill="#A8C86B">.</tspan></text>
+    <text x="52" y="260" fill="#ADB99B" font-family="Arial, sans-serif" font-size="15">A general purpose color scheme.</text>
+    <text x="752" y="83" fill="#455D52" font-family="monospace" font-size="11" letter-spacing="2">TWO VARIANTS</text>
+    <text x="752" y="155" fill="#102329" font-family="Georgia, 'Times New Roman', serif" font-size="56">Dusk <tspan fill="#788C7A">&amp;</tspan> Dawn</text>
+    <text x="752" y="191" fill="#455D52" font-family="Arial, sans-serif" font-size="14">Moss greens. Muted blues. Earthy accents.</text>
+    <g transform="translate(52 304)">
+      <rect width="54" height="7" rx="3.5" fill="#A8C86B"/><rect x="62" width="54" height="7" rx="3.5" fill="#5A8F78"/><rect x="124" width="54" height="7" rx="3.5" fill="#D4B071"/><rect x="186" width="54" height="7" rx="3.5" fill="#D36F5A"/><rect x="248" width="54" height="7" rx="3.5" fill="#668A94"/><rect x="310" width="54" height="7" rx="3.5" fill="#E8E6C8"/>
+    </g>
+    <g transform="translate(752 237)">
+      <rect width="54" height="44" rx="4" fill="#526E2D"/><rect x="64" width="54" height="44" rx="4" fill="#326A59"/><rect x="128" width="54" height="44" rx="4" fill="#8A5C2D"/><rect x="192" width="54" height="44" rx="4" fill="#A74B40"/><rect x="256" width="54" height="44" rx="4" fill="#365E69"/><rect x="320" width="54" height="44" rx="4" fill="#102329"/>
+    </g>
+    <text x="752" y="317" fill="#455D52" font-family="monospace" font-size="10" letter-spacing="1.2">BY LYSEC</text>
+  </g>
+</svg>
