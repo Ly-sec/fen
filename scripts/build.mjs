@@ -17,6 +17,7 @@ const dist = resolve(root, 'dist');
 await rm(dist, { recursive: true, force: true });
 await mkdir(resolve(dist, 'downloads'), { recursive: true });
 for (const file of ['index.html', 'styles.css', 'app.js', 'theme.js', 'favicon.svg']) await cp(resolve(root, 'src', file), resolve(dist, file));
+await cp(resolve(root, 'LICENSE'), resolve(dist, 'LICENSE'));
 await writeFile(resolve(dist, 'palette.js'), `export default ${JSON.stringify(source, null, 2)};\n`);
 const downloads = resolve(dist, 'downloads');
 await writeFile(resolve(downloads, 'fen-noctalia.json'), JSON.stringify(source, null, 2) + '\n');

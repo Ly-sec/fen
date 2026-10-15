@@ -1,4 +1,4 @@
-export const brand = { name: 'Fen', author: 'lysec', variants: { dark: 'Dusk', light: 'Dawn' } };
+export const brand = { name: 'Fen', author: 'Ly-sec', variants: { dark: 'Dusk', light: 'Dawn' } };
 export const roles = [
   ['base00', 'Water', 'Background'], ['base01', 'Bank', 'Raised surface'],
   ['base02', 'Marsh', 'Selection'], ['base03', 'Silt', 'Comments'],

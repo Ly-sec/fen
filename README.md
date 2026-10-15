@@ -79,3 +79,7 @@ GitHub Pages is configured to use GitHub Actions. Every push to `main` runs the 
 The deployment URL appears in the workflow result and the repository's Pages settings. For forks, select **GitHub Actions** under **Settings → Pages → Build and deployment**.
 
 </details>
+
+## License
+
+[MIT](LICENSE) © 2026 Ly-sec.
